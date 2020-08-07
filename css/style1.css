@@ -109,7 +109,7 @@ h1, h2, h3{
 
 /* Showcase */
 #showcase{
-background: url('../img1/event1st.jpg') no-repeat center center/cover;
+background: url('../img/event1st.jpg') no-repeat center center/cover;
 height: 600px;
 }
 
@@ -138,7 +138,7 @@ height: 600px;
 }
 
 #home-info .info-img{
-    background: url('../img1/client2.jpg') no-repeat center center/cover;;
+    background: url('../img/client2.jpg') no-repeat center center/cover;;
     min-height: 100%;
     width: 50%;
     float: left;
@@ -237,7 +237,7 @@ height: 600px;
 
 /* Feedback */
 #feedback{
-    background: url('../img1/backgroundforevent.jpg') no-repeat center center/cover;
+    background: url('../img/backgroundforevent.jpg') no-repeat center center/cover;
     height: 450px;
     text-align: center;
     padding-top: 50px;
