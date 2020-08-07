@@ -1,0 +1,255 @@
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Main Styling */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.8em;
+}
+a{
+    color: #333333;
+    text-decoration: none;
+}
+h1, h2, h3{
+    padding-bottom: 20px;
+}
+
+/* Utility */
+.container{
+    max-width: 1100px;
+    margin: auto;
+    overflow: auto;
+    padding: 0px 20px;
+}
+
+.text-primary{
+    color: red;
+    font-style: italic;
+    font-family: cursive;
+}
+
+.lead{
+    font-size: 30px;
+    color: brown;
+}
+
+.btn{
+    display: inline-block;
+    font-size: 18px;
+    color: #ffffff;
+    background: black;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background: #f7c08a;
+    color: black;
+}
+.btn-light{
+    background: rgb(128, 54, 54);
+    color: white;
+}
+.bg-dark{
+    background: black;
+    color: #ffffff;
+}
+.bg-light{
+    background: #ffffff;
+    color: black;
+}
+.bg-primary{
+    background: hsl(30, 55%, 54%);
+    color: black;
+}
+
+.clr{
+    clear: both;
+}
+
+.l-heading{
+    font-size: 30px;
+    color: red;
+}
+
+/* Navbar */
+#navbar{
+    background-color: rgb(65, 33, 33);
+    color: #ffffff;
+    overflow: auto;
+}
+#navbar a{
+    color: #ffffff;
+}
+#navbar h1{
+    float: left;
+    padding-top: 20px;
+}
+#navbar ul{
+    float: right;
+    list-style: none;
+}
+#navbar ul li{
+    float: left;
+}
+#navbar li a{
+    display: block;
+    padding: 20px;
+    text-align: center;
+    color: #ffffff;
+}
+#navbar li a:hover{
+    background-color: #444444;
+    color: #f7c08a;
+}
+
+/* Showcase */
+#showcase{
+background: url('../img1/event1st.jpg') no-repeat center center/cover;
+height: 600px;
+}
+
+#showcase .showcase-content{
+    color: black;
+    text-align: center;
+    padding: 300px;
+}
+
+#showcase .showcase-content h1{
+    font-size: 60px;
+    line-height: 1.2em;
+}
+
+#showcase .showcase-content p{
+    padding-bottom: 20px;
+    line-height: 1.7em;
+}
+
+/* Home Info */
+#home-info{
+    height: 400px;
+    background: #333333;;
+    color: #1e0547;
+    font-size: larger;
+}
+
+#home-info .info-img{
+    background: url('../img1/client2.jpg') no-repeat center center/cover;;
+    min-height: 100%;
+    width: 50%;
+    float: left;
+}
+
+#home-info .info-content{
+    width: 50%;
+    float: right;
+    height: 100%;
+    padding: 50px 30px;
+    overflow: hidden;
+}
+
+#home-info .info-content p {
+    padding-bottom: 30px;
+}
+
+/* Feature */
+.box{
+    float: left;
+    width: 33.2%;
+    padding: 50px;
+    text-align: center;
+    min-height: 100%;
+}
+
+.box i{
+    margin-bottom: 10px;
+}
+#feature .box img{
+    display: block;
+    width: 50%;
+    margin: auto;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+/* main-footer */
+#main-footer{
+    text-align: center;
+    padding: 20px;
+    background: rgb(27, 26, 26);
+    color: white;
+}
+
+/* Contact */
+#contact-form {
+    margin: 20px 0px;
+}
+#contact-form .form-group{
+    margin: 10px;
+}
+
+#contact-form .form-group label{
+    display: block;
+    margin-bottom: 5px;
+}
+
+#contact-form .form-group input, #contact-form .form-group textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px #dddddd solid;
+    border-radius: 5px;
+}
+#contact-form .form-group textarea{
+    height: 200px;
+}
+#contact-form .form-group input:focus, #contact-form .form-group textarea:focus{
+    outline: none;
+    border-color: #f7c08a;
+
+}
+/* About */
+#about-info{
+    padding: 30px 10px;
+}
+#about-info .info-left{
+    width: 50%;
+    float: left;
+    min-height: 100px;
+}
+.l-size{
+    font-size: 50px;
+}
+#about-info .info-right{
+    width: 50%;
+    float: right;
+}
+#about-info .info-right img{
+    display: block;
+    width: 70%;
+    margin: auto;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+/* Feedback */
+#feedback{
+    background: url('../img1/backgroundforevent.jpg') no-repeat center center/cover;
+    height: 450px;
+    text-align: center;
+    padding-top: 50px;
+    color: white;
+}
+#feedback .guest{
+    padding: 20px;
+    margin-bottom: 20px;
+    float: left;
+    width : 33.2%;
+}
+#feedback .guest img{
+    width : 70%;
+    border-radius: 50%;
+}
